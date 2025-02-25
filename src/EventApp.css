@@ -1,0 +1,148 @@
+/* Smooth animations */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Background gradient */
+body {
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  padding: 20px;
+}
+
+/* Container styling */
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Header section */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ff476f;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Event list */
+.event-list {
+  margin-bottom: 20px;
+}
+
+.event-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #ff7eb3, #ff758c);
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.event-card:hover {
+  transform: scale(1.02);
+}
+
+.event-info {
+  flex: 1;
+  color: white;
+}
+
+.event-name {
+  font-size: 18px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.event-description {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.event-date {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+/* Delete button */
+.delete-btn {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.delete-btn:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Add event section */
+.add-event {
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #ff476f;
+  text-align: center;
+}
+
+/* Input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  transition: border 0.3s ease-in-out;
+}
+
+.input-field:focus {
+  border-color: #ff476f;
+  outline: none;
+}
+
+/* Add button */
+.add-btn {
+  width: 100%;
+  background: linear-gradient(to right, #ff476f, #ff758c);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: opacity 0.3s;
+}
+
+.add-btn:hover {
+  opacity: 0.8;
+}
