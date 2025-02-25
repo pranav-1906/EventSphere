@@ -15,7 +15,7 @@ A simple event management app built with React and Firebase Firestore. Users can
 
 ### 1️⃣ Clone this repository
 ```sh
-git clone [https://github.com/pranav-1906/EventSphere.git]
+git clone (https://github.com/pranav-1906/EventSphere.git)
 cd EventSphere
 ```
 
