@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCwTXEPoS2_S1FHhBZW5ev3l6Kz0Fsn9h0",
-    authDomain: "evend-b7b9d.firebaseapp.com",
-    projectId: "evend-b7b9d",
-    storageBucket: "evend-b7b9d.firebasestorage.app",
-    messagingSenderId: "302475418596",
-    appId: "1:302475418596:web:54f449f26c0694612585f1",
-    measurementId: "G-L8SJ4W2B44"
+  apiKey: "AIzaSyDoqx0Qhe-z3ACIwJleA-yVp9fAx_kl4Xc",
+  authDomain: "eventsphere-v1.firebaseapp.com",
+  projectId: "eventsphere-v1",
+  storageBucket: "eventsphere-v1.firebasestorage.app",
+  messagingSenderId: "75907595576",
+  appId: "1:75907595576:web:5f9b1da6001fbc00f895cd",
+  measurementId: "G-WELHTQGRGL"
 };
 
 const app = initializeApp(firebaseConfig);
